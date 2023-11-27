@@ -10,8 +10,8 @@ export default function Home() {
     <>
       <IndexPage></IndexPage>
       <div className='flex flex-col w-full h-full'>
-        <div className='flex w-full items-center justify-center font-bold p-1'>
-          <div className='flex items-center text-justify'>
+        <div className='flex flex-col md:flex md:flex-row w-full items-center justify-center font-bold p-1'>
+          <div className='flex items-center'>
             <div>
               <span className='font-bold mr-1'>+55 62 992295634</span>
             </div>
@@ -19,7 +19,7 @@ export default function Home() {
               <Image src={'/phone.svg'} width={30} height={30} alt='phone logo'></Image>
             </div>
           </div>
-          <span className='wr-1 ml-1'>/</span>
+          {/* <span className='wr-1 ml-1'>/</span> */}
           <div className='flex items-center'>
             <div>
               <span className='font-bold ml-1'>wesley@devwes.com.br</span>
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className='flex flex-col md:flex-row xl:flex-row items-center justify-between w-full h-full p-2'>
           <div className='flex flex-row md:flex md:flex-col'>
-            <div className='m-1'>
+            <div className='mb-10 md:m-1'>
               <a href="https://github.com/swesley400">
                 <Image src="/github.svg" alt="logo as github" width={50} height={50} />
               </a>
