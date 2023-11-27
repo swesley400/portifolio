@@ -11,7 +11,7 @@ export default function Home() {
       <IndexPage></IndexPage>
       <div className='flex flex-col w-full h-full'>
         <div className='flex w-full items-center justify-center font-bold p-1'>
-          <div className='flex items-center'>
+          <div className='flex items-center text-justify'>
             <div>
               <span className='font-bold mr-1'>+55 62 992295634</span>
             </div>
